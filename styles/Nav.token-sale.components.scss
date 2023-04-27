@@ -1,0 +1,49 @@
+.nav-sale {
+  position: relative;
+  z-index: 2;
+
+  height: 86px;
+  width: 100%;
+  
+  background: #FCFCFD;
+  backdrop-filter: blur(4px);
+  
+  padding: 0 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__menu-container {
+    display: flex;
+  }
+
+  &__menu-button {
+    border: 0;
+    background: #FFC32A;
+    box-shadow: 0px 3px 20px rgba(255, 195, 42, 0.47);
+    border-radius: 8px;
+
+    padding: 12px 20px;
+    gap: 5px;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 24px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-sale {
+    padding: 0 20px;
+    &__wallet-text {
+      display: none;
+    }
+    .logo__img {
+      width: 120px;
+    }
+    .menu-sale {
+      display: none;
+    }
+  }
+}

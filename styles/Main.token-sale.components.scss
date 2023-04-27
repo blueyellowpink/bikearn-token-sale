@@ -1,0 +1,14 @@
+.main-sale {
+  position: absolute;
+
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("../public/token-sale-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFC32A;
+
+  filter: blur(5px);
+}
